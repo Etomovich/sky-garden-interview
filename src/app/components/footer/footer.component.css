@@ -2,7 +2,7 @@
     position: relative;
     height: 725px;
     width: 100%;
-    background-image: url('/assets/footerimage.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sky-garden-etomovich-app.appspot.com/o/footerimage.jpg?alt=media&token=b35962d9-9662-49fa-a181-43493ee76d53');
     background-size: cover;
 }
 
@@ -66,10 +66,9 @@
 }
 
 .insta-icon-image{
-    height: 32px;
-    width: 33px;
-    margin-left: -9px;
-    margin-right: 11px;
+    height: 21px;
+    width: 20px;
+    margin-right: 16px;
 }
 
 .linkedin-icon-image{
