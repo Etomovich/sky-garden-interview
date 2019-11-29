@@ -10,6 +10,8 @@ import { CommodityComponent } from './components/commodity/commodity.component';
 import { MainComponent } from './components/main/main.component';
 import { CommoditiesService } from 'src/app/services/commodities.service';
 import { FooterComponent } from './components/footer/footer.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     FlexLayoutModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     CommoditiesService
