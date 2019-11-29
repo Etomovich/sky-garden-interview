@@ -1,0 +1,13 @@
+.header-container{
+    width: 100%;
+}
+.nav-container {
+	height: 102px;
+	width: 100%;
+	background-color: #1E1E1E;
+}
+
+.banner-container{
+    width: 80%;
+    margin-top: 10px;
+}

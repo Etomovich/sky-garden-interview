@@ -1,0 +1,63 @@
+<div class="main-container" fxLayout="column" fxLayoutAlign="center center">
+    <div class="comodities-container">
+        <div class="commodity-div" *ngFor="let item of productData">
+            <app-commodity
+                commodityTitle="{{item.title}}"
+                commodityImage="{{item.thumbnail}}"
+                currentPrice="{{item.stock_record_price_retail}}"
+                offerBenefitValue="{{item.offer_benefit_value}}"
+                offerBenefitType="{{item.offer_benefit_type}}"
+                stockRecordPriceCurrency="{{item.stock_record_price_currency}}"
+                commodityVendor="{{item.partner_name}}"
+            ></app-commodity>
+        </div>
+    </div>
+    <button class="load-more">Load More</button>
+    <div class="announcements" fxLayout="row" fxLayoutAlign="center center">
+        <div class="live-chart">
+            <div class="live-content-body" fxLayout="column" fxLayoutAlign="start start">
+                <div class="customer-care-title" fxLayout="column" fxLayoutAlign="start start">
+                    <h1>Customer</h1>
+                    <h1>Care</h1>
+                </div>
+                <h2>+254 718 222 111</h2>
+                <p>support@sky.garden</p>
+                <diV class="time-available">
+                    <p>Mon - Fri: 8 am - 8 pm</p>
+                    <p>Sat - Sun: 9 am - 5 pm</p>
+                </diV>
+                <a target="_blank" href="#">
+                    <div class="the-button">
+                        <img src="assets/buttonrectangle.png">
+                        <div class="button-label"  fxLayout="row" fxLayoutAlign="space-evenly center">
+                            <p class="button-name">Start Live Chart</p>
+                            <p class="button-arrow">></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <img src="assets/customercare.png" alt="Customer Care">            
+        </div>
+        <div class="register-shop">
+            <div class="register-shop-details" fxLayout="column" fxLayoutAlign="start start">
+                <div class="customer-care-title" fxLayout="column" fxLayoutAlign="start start">
+                    <h1>Ready</h1>
+                    <h1>to Sell?</h1>
+                </div>
+                <div class="register-shop-message" fxLayout="column" fxLayoutAlign="start start">
+                    <p>Open your free shop and</p>
+                    <p>start selling in 5 min!</p>
+                </div>
+                <a target="_blank" href="#">
+                    <div class="the-button">
+                        <img src="assets/buttonrectangle.png">
+                        <div class="button-label2"  fxLayout="row" fxLayoutAlign="space-evenly center">
+                            <p class="button-name">open your shop</p>
+                            <p class="button-arrow2">></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

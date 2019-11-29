@@ -1,0 +1,99 @@
+.banner-container {
+	width: 100%;
+    background-color: #FFFFFF;
+}
+
+.banner-title{
+    height: 69px;
+	width: 510px;
+	color: #1F1F1F;
+	font-size: 58px;
+	font-weight: 800;
+	line-height: 69px;
+}
+
+.banner-info{
+    height: 66px;
+	width: 433px;
+	color: #1F1F1F;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.banner-timer{
+    margin-left: 0;
+    height: 22px;
+	width: 316px;
+	color: #1F1F1F;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 22px;
+	text-align: center;
+}
+
+.banner-img-div{
+    position: relative;
+}
+
+.shopping-lady{
+    position: absolute;
+    height: 301px;
+    width: 380px;
+    left: 110px;
+    z-index: 100;
+}
+
+.discount-circle{
+    position: absolute;
+    height: 236px;
+    width: 236px;
+    left: 380px;
+    top: 10px;
+    z-index: 200;
+}
+
+.discount-circle-label{
+    position: absolute;
+    top: 85px;
+    left: 60px;
+    height: 47px;
+    width: 110px;
+    color: #FFFFFF;
+    line-height: 47px;
+    font-weight: 800;
+}
+
+.percent{
+    font-size: 40px;
+}
+.percent-symbol{
+    font-size: 45px;
+}
+
+.discount-line {
+    position: absolute;
+    top: 130px;
+    left: 88px;
+}
+
+.black-bubble{
+    position: absolute;
+    height: 138px;
+    width: 131px;
+    left: 370px;
+    top: 145px;
+    z-index: 300;
+}
+
+.black-bubble-label{
+    position: absolute;
+    text-transform: uppercase;
+    height: 57px;
+    width: 84px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    top: 45px;
+    left: 25px;
+}

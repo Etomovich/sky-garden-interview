@@ -1,0 +1,84 @@
+.commodity-container{
+    position: relative;
+    height: 462px;
+    width: 250px;
+    background-color: #FFFFFF;
+}
+
+.commodity-price p{
+    text-transform: uppercase;
+}
+
+.percent-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 28px;
+    width: 73px;
+}
+
+.percent-container img{
+    position: relative;
+    height: 28px;
+    width: 73px;
+}
+
+.drop-percent{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    line-height: 14px;
+}
+
+
+.commodity-image{
+    margin-top: 20px;
+}
+
+.commodity-image img{
+    max-width: 90%;
+    max-height: 100%;
+    margin-top: 15px;
+}
+
+.commodity-info{
+    width: 80%;
+}
+
+.commodity-name{
+    color: #171717;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.commodity-category {
+	color: #777777;
+	font-size: 14px;
+	font-weight: 500;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+
+.commodity-price p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.commodity-price{
+    margin-left: -28px;   
+    font-size: 18px;
+    font-weight: bold;  
+    line-height: 24px;
+}
+
+.new-price{
+    color: #55D187;
+}
+
+.old-price{
+    color: #787878;
+    text-decoration: line-through;
+}

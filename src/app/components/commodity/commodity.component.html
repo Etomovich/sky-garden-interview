@@ -1,0 +1,19 @@
+<div class="commodity-container" fxLayout="column" fxLayoutAlign="space-evenly center">
+    <div class="percent-container">
+        <img src="assets/pricetag.png">
+        <div class="drop-percent">{{percentDrop}}%</div>
+    </div>
+    <div class="commodity-image" fxLayout="column" fxLayoutAlign="center center">
+        <img src="{{commodityImage}}"  alt="Product Image">
+    </div>
+    <div class="commodity-info">
+        <div class="commodity-label">
+            <p class="commodity-name">{{commodityTitle}}</p>
+            <p class="commodity-category">{{commodityVendor}}</p>
+        </div>
+        <div class="commodity-price" fxLayout="row" fxLayoutAlign="space-evenly stretch">
+            <p class="new-price">{{currentPrice}} {{stockRecordPriceCurrency}}</p>
+            <p class="old-price">{{previousPrice}} {{stockRecordPriceCurrency}}</p>
+        </div>
+    </div>
+</div>
